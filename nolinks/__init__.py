@@ -1,5 +1,5 @@
 from .nolinks import NoLinks
 
 
-def setup(bot):
-    bot.add_cog(NoLinks(bot))
+async def setup(bot):
+    await bot.add_cog(NoLinks(bot))
